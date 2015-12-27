@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
     x
   }
   
-  # set the mean of the Matrix x.  Called by cachematrix,
+  # set the Inverse of the Matrix x.  Called by cachematrix,
   # <<- operator used to modify the Inv defined in the environment
   setInverse <- function(solve) 
   {
